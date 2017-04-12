@@ -1,0 +1,136 @@
+/*
+ * CIATTI
+ * Gabriel Gracia
+ */
+/**************
+*** GENERAL ***
+**************/
+html , body {
+	width: 1000vh;
+}
+header {
+	width: 100vh;
+}
+main {
+	/*margin: 50px;*/
+}
+tr {
+	padding-left: 0px;
+}
+.item > form {
+	width: 200px;
+}
+textarea {
+	resize: none;
+}
+
+/**************
+***  PANEL  ***
+**************/
+.main-panel {
+	width: 1400px;
+}
+.item-panel > ul {
+	height: 164px;
+}
+.item-panel > ul > .typeFleche , .nomFleche {
+	height: 42px;
+}
+.item-panel > ul > .textFleche {
+	height: 52px;
+	overflow: hidden;
+}
+
+/**************
+***  ETAPES ***
+**************/
+.item {
+	width: 300px;
+	min-height: 300px;
+}
+.text-item {
+	margin-right: 20px;
+	overflow: auto;
+}
+.fin > div > a > .img-ajout {
+	max-width: 30px;
+	max-height: 30px;
+	position: relative;
+	top: 80px;
+	left: 60px;
+}
+.fin > div > a > .img-ajout:hover {
+	max-width: 50px;
+	max-height: 50px;
+	transition: max-width 0.5s;
+	transition: max-height 0.5s;
+}
+.form-hide {
+	visibility: hidden;
+}
+.btn-submit-item , .btn-cancel-item {
+	display: none;
+}
+.label { /*Date d'une etape. */
+	font-size: 20px;
+}
+
+/**************
+*** FLECHES ***
+**************/
+.debut {
+	background-image: url(../lib/images/debut_trait.png);
+	background-repeat: no-repeat;
+}
+.millieu {
+	background-image: url(../lib/images/millieu_trait.png);
+	background-repeat: no-repeat;
+}
+.fin {
+	background-image: url(../lib/images/fin_trait.png);
+	background-repeat: no-repeat;
+}
+.fin-mur {
+	background-image: url(../lib/images/fin_trait_mur.png);
+	background-repeat: no-repeat;
+}
+.form-fleche {
+	display: none;
+}
+.btn-fin {
+	margin-left: 70px;
+}
+.space {
+	min-height: 50vh;
+}
+
+/**************
+***   FLEX  ***
+**************/
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+.flex-space-between {
+	display: flex;
+	justify-content: space-between;
+}
+.case {
+	width: 150px;
+}
+/**************
+***  TABLE  ***
+**************/
+.left-part {
+	width: 300px;
+	border-right: 1px #ddd solid;
+}
+.left-part > ul > li {
+	font-size: 30px;
+	padding: 5px;
+}
+.right-part {
+	display: flex;
+	flex-direction: row;
+}
+
